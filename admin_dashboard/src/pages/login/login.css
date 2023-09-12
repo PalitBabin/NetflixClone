@@ -1,0 +1,45 @@
+.login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    background: rgb(23,14,186);
+background: linear-gradient(21deg, rgba(23,14,186,1) 0%, rgba(0,212,255,1) 15%, rgba(6,82,169,1) 45%, rgba(5,101,182,1) 86%);
+    
+}
+.loginContainer{
+    height: 300px;
+    width: 300px;
+    background-color: rgb(220, 231, 241);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    border: 1px solid teal;
+}
+.loginForm{
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+}
+.loginInput{
+    margin-bottom: 20px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid rgb(149, 228, 240);
+}
+.loginInput:focus{
+    outline:none;
+    border-color: #007bff; /* Change border color on focus */
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+.loginButton {
+    background-color: teal;
+    border: none;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
